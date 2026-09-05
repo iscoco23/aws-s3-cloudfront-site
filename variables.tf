@@ -1,5 +1,6 @@
 variable "github_owner" {
   type        = string
+  default     = "iscoco23"
   description = "GitHub user or org that owns the repo"
 }
 

@@ -27,7 +27,7 @@ data "aws_iam_policy_document" "gha_trust" {
     condition {
       test     = "StringLike"
       variable = "${local.github_oidc_url}:sub"
-      values   = ["repo:${var.github_owner}/${var.github_repo}:*"]
+      values   = ["repo:${var.github_owner}@79909277/${var.github_repo}@1352399009:*"]
     }
   }
 }
