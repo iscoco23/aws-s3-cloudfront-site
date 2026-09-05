@@ -25,15 +25,14 @@ terraform destroy
 
 Region: `ap-northeast-1`. Provider aws version: `~> 6.0` in `providers.tf`.
 
-## Todo
+## Todo next
 
 - GitHub Actions OIDC
 - CloudFront / S3 access logging
 
 ## References
-https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html
-https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudfront_distribution.html
-
-https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_public_access_block#argument-reference
-https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_server_side_encryption_configuration
-https://registry.terraform.io/providers/-/aws/6.8.0/docs/guides/version-6-upgrade
+- https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html
+- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudfront_distribution.html
+- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_public_access_block#argument-reference
+- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_server_side_encryption_configuration
+- https://registry.terraform.io/providers/-/aws/6.8.0/docs/guides/version-6-upgrade
